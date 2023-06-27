@@ -8,7 +8,8 @@ packages = [{include = "stats_dashboard"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-
+streamlit = "^1.24.0"
+requests = "^2.31.0"
 
 [build-system]
 requires = ["poetry-core"]
