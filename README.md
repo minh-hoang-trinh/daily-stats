@@ -4,6 +4,13 @@ A POC for read-models statistics dashboard.
 
 ## Quick Start
 
+update the `stats_dashboard/env` file with the correct values
+
+```bash
+BASE_URL = "https://{read-models-url}"
+DISTRIBUTOR_ID = "{distributor-id}"
+```
+
 You can run the app with docker-compose
 
 ```bash
